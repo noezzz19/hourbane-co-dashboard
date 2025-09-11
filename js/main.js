@@ -72,7 +72,7 @@
             labels: ["September", "October", "November", "December", "January", "February", "March"],
             datasets: [{
                     label: "Upside",
-                    data: [0, 0, 0, 0, , , ],
+                    data: [1, 0, 0, 0, , , ],
                     backgroundColor: "rgba(0, 4, 236, 0.7)"
                 },
                 {
@@ -82,7 +82,7 @@
                 },
                 {
                     label: "All",
-                    data: [0, 0, 0, 0, , , ],
+                    data: [1, 0, 0, 0, , , ],
                     backgroundColor: "rgba(6, 199, 206, 0.47)"
                 }
             ]
@@ -101,13 +101,13 @@
             labels: ["june", "September", "October", "November", "December", "January", "February", "March"],
             datasets: [{
                     label: "Salse",
-                    data: [-70, , , , , , ],
-                    backgroundColor: "rgba(224, 0, 0, 1)",
+                    data: [-70, 160, , , , , ],
+                    backgroundColor: "rgba(224, 0, 0, 0.3)",
                     fill: true
                 },
                 {
                     label: "Revenue",
-                    data: [0, , , , , , ],
+                    data: [0, 50, , , , , ],
                     backgroundColor: "rgba(29, 143, 0, 1)",
                     fill: true
                 }
@@ -131,7 +131,7 @@
                 label: "Customer watches produced",
                 fill: false,
                 backgroundColor: "rgba(58, 235, 22, 0.7)",
-                data: [1, , , , , , ,]
+                data: [1, 1, , , , , ,]
             }]
         },
         options: {
