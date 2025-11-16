@@ -69,20 +69,20 @@
     var myChart1 = new Chart(ctx1, {
         type: "bar",
         data: {
-            labels: ["September", "October", "November", "December", "January", "February", "March"],
+            labels: ["September", "November", "December", "January", "February", "March"],
             datasets: [{
                     label: "Upside",
-                    data: [1, 0, 0, 0, , , ],
+                    data: [1, 0, 0, , , ],
                     backgroundColor: "rgba(0, 4, 236, 0.7)"
                 },
                 {
                     label: "ZOU",
-                    data: [0, 0, 0, 0, , , ],
+                    data: [1, 3, 0, , , ],
                     backgroundColor: "rgba(235, 22, 22, .5)"
                 },
                 {
                     label: "All",
-                    data: [1, 0, 0, 0, , , ],
+                    data: [2, 3, 0, , , ],
                     backgroundColor: "rgba(6, 199, 206, 0.47)"
                 }
             ]
@@ -98,16 +98,16 @@
     var myChart2 = new Chart(ctx2, {
         type: "line",
         data: {
-            labels: ["june", "September", "October", "November", "December", "January", "February", "March"],
+            labels: ["june", "September", "November", "December", "January", "February", "March"],
             datasets: [{
                     label: "Salse",
-                    data: [-70, 160, , , , , ],
+                    data: [-70, 160, 260, , , , ],
                     backgroundColor: "rgba(224, 0, 0, 0.3)",
                     fill: true
                 },
                 {
                     label: "Revenue",
-                    data: [0, 50, , , , , ],
+                    data: [0, 50, 105, , , , ],
                     backgroundColor: "rgba(29, 143, 0, 1)",
                     fill: true
                 }
@@ -126,12 +126,12 @@
     var myChart3 = new Chart(ctx3, {
         type: "line",
         data: {
-            labels: ["june", "September", "October", "November", "December", "January", "February", "March"],
+            labels: ["june", "September", "November", "December", "January", "February", "March"],
             datasets: [{
                 label: "Customer watches produced",
                 fill: false,
                 backgroundColor: "rgba(58, 235, 22, 0.7)",
-                data: [1, 1, , , , , ,]
+                data: [1, 1, 3, , , , ,]
             }]
         },
         options: {
